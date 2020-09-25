@@ -239,7 +239,7 @@ Name               | Type              | Description
 `errorCallback`    | function          | A callback that is executed when any errors happen during the upload process. It has one argument, `err`, that will be a string error message.
 
 ```js
-client.upload(
+client.replace(
   '/home/aaron/Downloads/ada-v2.mp4',
   '/videos/15'
   function (uri) {
